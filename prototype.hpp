@@ -15,7 +15,16 @@ using namespace std;
 
 // Main
 int main()
-    
+    ofstream monFlux("C:/Nanoc/scores.txt");  //On essaye d'ouvrir le fichier
+
+if(monFlux)  //On teste si tout est OK
+{
+    //Tout est OK, on peut utiliser le fichier
+}
+else
+{
+    cout << "ERREUR: Impossible d'ouvrir le fichier." << endl;
+}
    //Déclaration d'un flux permettant d'écrire dans le fichier
    // C:/Nanoc/scores.txt
    return 0;
