@@ -4,9 +4,19 @@
       #include "math.hpp"
 
 using namespace std;
+#include <iostream>
+#include <fstream>
+using namespace std;
 
+
+   
 int main()
 {
+      ofstream monFlux("./w.txt");
+   //Déclaration d'un flux permettant d'écrire dans le fichier
+   // 
+   return 0;
+}
     cout << "Hello world!" << endl;
     return 0;
       char nom2("Ulysse")
